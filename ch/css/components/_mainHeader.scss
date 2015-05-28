@@ -1,0 +1,46 @@
+
+.contentBody{
+  .scrollBody{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    position: relative;
+
+    .mainContent{
+
+      .contentDiv{
+
+        margin: 0 auto;
+
+        .mainHeader{
+          max-width: 960px;
+          margin: 0 auto;
+          padding-bottom: 210px !important;
+          padding-top: 180px !important;
+
+          .H1{
+            margin: 0 auto;
+            color: rgb(27, 92, 27);
+            display: block;
+            font-family: "Times New Roman";
+            font-weight: 700;
+            text-align: center;
+
+            p.h1{
+              font-size: 36px !important;
+            }
+            p.h3{
+              font-family: "Times New Roman";
+              font-size: 26px !important;
+              line-height: normal;
+            }
+          }
+        }
+
+      }
+
+    }
+
+
+  }
+}

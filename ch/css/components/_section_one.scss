@@ -1,0 +1,113 @@
+section.sectionOne {
+  background-color: white;
+  padding-bottom: 6em;
+  .sectionTitle {
+    margin: 0 auto;
+    padding-top: 3em;
+    .header {
+      text-align: center;
+      font-size: 2em;
+      .headerThin {
+        font-weight: 200;
+      }
+      .headerBold {
+        font-weight: 600;
+      }
+    }
+    .divider {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      min-height: 2px;
+      background-color: grey;
+      display: block;
+    }
+
+  }
+
+  .sectionContent {
+    max-width: 960px;
+    margin: 0 auto;
+
+    .sectionRow {
+      max-width: 960px;
+      padding-top: 3em;
+      .sectionCol {
+        padding-right: 1.5%;
+        width: 49%;
+        display: inline-block;
+        position: relative;
+        .articleHeader {
+          font-size: 1.3em;
+
+          h3 {
+            font-weight: 400;
+          }
+        }
+
+        .paragraph {
+          font-size: 1.15em;
+          font-family: "Source Sans Pro";
+          line-height: 1.5 !important;
+          margin: 8px 0;
+          padding: 2px 0;
+          text-align: left;
+        }
+        .spacer {
+          height: 2.5em;
+        }
+
+        .image_one {
+          float: left;
+
+          display: block !important;
+          margin: 20px 12px 0 auto !important;
+          max-width: 100% !important;
+          width: 147px !important;
+          height: auto !important;
+          left: 0 !important;
+
+          min-width: 0 !important;
+
+          position: relative !important;
+          text-align: center !important;
+          top: auto !important;
+          width: 147px !important;
+          img {
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+
+        ul {
+
+          li {
+            font-size: 1.15em;
+            span {
+              line-height: 1.5;
+            }
+          }
+        }
+
+        &.left {
+
+          padding-left: 1.5%;
+
+          .image_two {
+            width: 100%;
+            max-width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+
+}
+
+
+

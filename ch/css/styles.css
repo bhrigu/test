@@ -1,0 +1,350 @@
+.header .headerContainer .soc-row {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #313131; }
+  .header .headerContainer .soc-row .inner {
+    padding-left: 50px !important;
+    text-align: right;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 5px;
+    position: absolute;
+    width: 100%;
+    z-index: 120;
+    height: 0; }
+    .header .headerContainer .soc-row .inner .SocialHome {
+      line-height: 70px;
+      vertical-align: middle;
+      float: right; }
+      .header .headerContainer .soc-row .inner .SocialHome .socIcons .innerDiv a {
+        margin-left: 0.25em; }
+        .header .headerContainer .soc-row .inner .SocialHome .socIcons .innerDiv a .icon {
+          color: white;
+          font-size: 1.3em;
+          height: 1.3em;
+          line-height: 1.4em;
+          margin: 0;
+          width: 1.3em; }
+        .header .headerContainer .soc-row .inner .SocialHome .socIcons .innerDiv a .icon::before {
+          display: inline-block; }
+.header .headerSocContainer {
+  content: " ";
+  display: table;
+  min-height: 0 !important;
+  padding-bottom: 4px !important;
+  max-width: none;
+  min-height: 70px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  .header .headerSocContainer .innerDiv {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    background-image: none !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    min-height: 70px;
+    height: 100%;
+    width: 100%; }
+    .header .headerSocContainer .innerDiv .logoContainer {
+      margin: 0 auto;
+      max-width: 960px;
+      position: relative;
+      width: 100%;
+      display: flex; }
+      .header .headerSocContainer .innerDiv .logoContainer a {
+        display: inline-block;
+        height: 100%;
+        width: 100%; }
+        .header .headerSocContainer .innerDiv .logoContainer a .logoImg {
+          max-height: 65px;
+          max-width: 300px;
+          vertical-align: middle; }
+
+.contentBody .scrollBody {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  position: relative; }
+  .contentBody .scrollBody .mainContent .contentDiv {
+    margin: 0 auto; }
+    .contentBody .scrollBody .mainContent .contentDiv .mainHeader {
+      max-width: 960px;
+      margin: 0 auto;
+      padding-bottom: 210px !important;
+      padding-top: 180px !important; }
+      .contentBody .scrollBody .mainContent .contentDiv .mainHeader .H1 {
+        margin: 0 auto;
+        color: #1b5c1b;
+        display: block;
+        font-family: "Times New Roman";
+        font-weight: 700;
+        text-align: center; }
+        .contentBody .scrollBody .mainContent .contentDiv .mainHeader .H1 p.h1 {
+          font-size: 36px !important; }
+        .contentBody .scrollBody .mainContent .contentDiv .mainHeader .H1 p.h3 {
+          font-family: "Times New Roman";
+          font-size: 26px !important;
+          line-height: normal; }
+
+section.sectionOne {
+  background-color: white;
+  padding-bottom: 6em; }
+  section.sectionOne .sectionTitle {
+    margin: 0 auto;
+    padding-top: 3em; }
+    section.sectionOne .sectionTitle .header {
+      text-align: center;
+      font-size: 2em; }
+      section.sectionOne .sectionTitle .header .headerThin {
+        font-weight: 200; }
+      section.sectionOne .sectionTitle .header .headerBold {
+        font-weight: 600; }
+    section.sectionOne .sectionTitle .divider {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      min-height: 2px;
+      background-color: grey;
+      display: block; }
+  section.sectionOne .sectionContent {
+    max-width: 960px;
+    margin: 0 auto; }
+    section.sectionOne .sectionContent .sectionRow {
+      max-width: 960px;
+      padding-top: 3em; }
+      section.sectionOne .sectionContent .sectionRow .sectionCol {
+        padding-right: 1.5%;
+        width: 49%;
+        display: inline-block;
+        position: relative; }
+        section.sectionOne .sectionContent .sectionRow .sectionCol .articleHeader {
+          font-size: 1.3em; }
+          section.sectionOne .sectionContent .sectionRow .sectionCol .articleHeader h3 {
+            font-weight: 400; }
+        section.sectionOne .sectionContent .sectionRow .sectionCol .paragraph {
+          font-size: 1.15em;
+          font-family: "Source Sans Pro";
+          line-height: 1.5 !important;
+          margin: 8px 0;
+          padding: 2px 0;
+          text-align: left; }
+        section.sectionOne .sectionContent .sectionRow .sectionCol .spacer {
+          height: 2.5em; }
+        section.sectionOne .sectionContent .sectionRow .sectionCol .image_one {
+          float: left;
+          display: block !important;
+          margin: 20px 12px 0 auto !important;
+          max-width: 100% !important;
+          width: 147px !important;
+          height: auto !important;
+          left: 0 !important;
+          min-width: 0 !important;
+          position: relative !important;
+          text-align: center !important;
+          top: auto !important;
+          width: 147px !important; }
+          section.sectionOne .sectionContent .sectionRow .sectionCol .image_one img {
+            max-width: 100%;
+            width: 100%; }
+        section.sectionOne .sectionContent .sectionRow .sectionCol ul li {
+          font-size: 1.15em; }
+          section.sectionOne .sectionContent .sectionRow .sectionCol ul li span {
+            line-height: 1.5; }
+        section.sectionOne .sectionContent .sectionRow .sectionCol.left {
+          padding-left: 1.5%; }
+          section.sectionOne .sectionContent .sectionRow .sectionCol.left .image_two {
+            width: 100%;
+            max-width: 100%; }
+            section.sectionOne .sectionContent .sectionRow .sectionCol.left .image_two img {
+              width: 100%; }
+
+.sectionTwo {
+  background-color: white; }
+  .sectionTwo .sectionRow .sectionContent {
+    max-width: 960px;
+    margin: 0 auto; }
+  .sectionTwo .sectionRow .sectionHeader.green {
+    background-color: #1b5c1b !important;
+    height: 9em; }
+    .sectionTwo .sectionRow .sectionHeader.green .h2 {
+      color: white;
+      margin: 0 auto;
+      max-width: 960px;
+      text-align: center;
+      font-size: 2em;
+      vertical-align: middle;
+      line-height: 4.5em; }
+      .sectionTwo .sectionRow .sectionHeader.green .h2 h2 {
+        padding: 0;
+        margin: 0; }
+        .sectionTwo .sectionRow .sectionHeader.green .h2 h2 span {
+          font-weight: 200; }
+
+.sectionThree {
+  background-color: white; }
+  .sectionThree .sectionRow .sectionContent {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .sectionThree .sectionRow .sectionContent .sectionCol {
+      width: 49%;
+      float: left;
+      padding-right: 1%; }
+      .sectionThree .sectionRow .sectionContent .sectionCol #gMap {
+        width: 100%;
+        display: inline-block; }
+      .sectionThree .sectionRow .sectionContent .sectionCol.left {
+        padding-left: 1.5%; }
+        .sectionThree .sectionRow .sectionContent .sectionCol.left .paragraph {
+          line-height: 1.5;
+          margin-top: -0.7em; }
+          .sectionThree .sectionRow .sectionContent .sectionCol.left .paragraph dl {
+            overflow: hidden; }
+            .sectionThree .sectionRow .sectionContent .sectionCol.left .paragraph dl dt {
+              float: left;
+              display: inline-block;
+              clear: left; }
+              .sectionThree .sectionRow .sectionContent .sectionCol.left .paragraph dl dt.spacer {
+                margin-bottom: 0.5em; }
+            .sectionThree .sectionRow .sectionContent .sectionCol.left .paragraph dl dd {
+              display: inline-block;
+              float: left;
+              margin-left: 0.25em; }
+              .sectionThree .sectionRow .sectionContent .sectionCol.left .paragraph dl dd.spacer {
+                margin-bottom: 0.5em; }
+        .sectionThree .sectionRow .sectionContent .sectionCol.left .gmap {
+          margin-top: 0; }
+        .sectionThree .sectionRow .sectionContent .sectionCol.left .spacer {
+          height: 2em; }
+        .sectionThree .sectionRow .sectionContent .sectionCol.left .contacts {
+          line-height: 1.5; }
+          .sectionThree .sectionRow .sectionContent .sectionCol.left .contacts span {
+            width: 100%;
+            display: block; }
+          .sectionThree .sectionRow .sectionContent .sectionCol.left .contacts .bold {
+            font-weight: 700; }
+  .sectionThree .sectionRow .sectionHeader.green {
+    background-color: #1b5c1b !important;
+    height: 9em; }
+    .sectionThree .sectionRow .sectionHeader.green .h2 {
+      color: white;
+      margin: 0 auto;
+      max-width: 960px;
+      text-align: center;
+      font-size: 2em;
+      vertical-align: middle;
+      line-height: 4.5em; }
+      .sectionThree .sectionRow .sectionHeader.green .h2 h2 {
+        padding: 0;
+        margin: 0; }
+        .sectionThree .sectionRow .sectionHeader.green .h2 h2 span {
+          font-weight: 200; }
+  .sectionThree .sectionRow .articleHeader {
+    font-size: 1.3em; }
+    .sectionThree .sectionRow .articleHeader h3 {
+      font-weight: 400;
+      margin-bottom: 0; }
+  .sectionThree .sectionRow .sectionForm form {
+    overflow: hidden;
+    padding-bottom: 1.5em; }
+  .sectionThree .sectionRow input[type="text"], .sectionThree .sectionRow input[type="email"], .sectionThree .sectionRow input[type="number"], .sectionThree .sectionRow input[type="tel"] {
+    background-color: rgba(81, 81, 81, 0.15);
+    border: 2px solid #ffffff;
+    font-size: 16px;
+    height: 40px;
+    margin: 3px 0;
+    padding: 0 10px;
+    width: 100%; }
+  .sectionThree .sectionRow .formInput {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    margin-top: 0.7em;
+    text-align: left; }
+  .sectionThree .sectionRow .inputName {
+    display: inline-block;
+    width: 33.3%;
+    position: relative; }
+  .sectionThree .sectionRow .inputEmail {
+    display: inline-block;
+    width: 33.3%;
+    position: relative; }
+  .sectionThree .sectionRow textarea {
+    background-color: rgba(81, 81, 81, 0.15);
+    border: 2px solid #ffffff;
+    font-size: 16px;
+    height: 5em;
+    margin: 0.2em 0;
+    min-height: 3em;
+    padding: 0.7em;
+    width: 100%; }
+  .sectionThree .sectionRow .cta-button::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    margin-right: -0.25em;
+    vertical-align: middle;
+    width: 0; }
+  .sectionThree .sectionRow .cta-button {
+    background-color: white !important;
+    border-color: #1b5c1b !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    color: white !important;
+    display: inline-block;
+    border-radius: 6px;
+    max-width: 100%;
+    padding: 0;
+    width: 13em;
+    float: right;
+    margin: 1.15em 0.95em; }
+    .sectionThree .sectionRow .cta-button input[type=submit] {
+      color: #1b5c1b !important;
+      background-color: transparent;
+      font-size: 1.125em;
+      margin: auto;
+      padding: 10px;
+      width: 98%;
+      height: auto;
+      cursor: pointer;
+      font-size: 1em; }
+
+* {
+  border: 0 solid #37b0ba; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+  font-family: Source Sans Pro;
+  font-size: 100%; }
+
+body {
+  width: 100%;
+  float: none;
+  margin: 0;
+  min-width: 1349px;
+  overflow: auto;
+  padding: 0; }
+
+.wrapper {
+  height: 100%; }
+  .wrapper .content {
+    height: 100%; }
+
+.outerContainer {
+  word-break: break-all;
+  min-height: 800px;
+  height: 800px; }
+  .outerContainer .innerContainer {
+    min-height: 100%;
+    background: url("../images/Fysiotherapie-2000x1332.jpg") fixed no-repeat 50% 0;
+    background-size: cover;
+    min-width: 960px;
+    background-color: #1c0d18 !important;
+    color: #515151;
+    font-size: 16px; }

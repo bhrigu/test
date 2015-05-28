@@ -1,0 +1,47 @@
+html, body, .wrapper{
+  height: 100%;
+  max-width: 100%;
+
+}
+
+@media (max-width: 768px) {
+  html, body, .wrapper{
+    overflow-x: hidden;
+    .content-body,
+    .header,
+    .wallpaper{
+      transition: 0.25s all;
+    }
+    &.move{
+      .content-body,
+      .header,
+      .wallpaper{
+        transform: translate3d(250px, 0px, 0px);
+        -moz-transform: translate3d(250px, 0px, 0px);
+        -webkit-transform: translate3d(250px, 0px, 0px);
+      }
+
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .wrapper{
+    .wallpaper{
+    min-height: 26em;
+
+  }
+    .content-body .section .title.green .inner h2 {
+      font-size: 1.5em;
+
+    }
+    .content-body .section article p {
+      font-size: 1em;
+    }
+
+    img {
+      max-width: 280px;
+
+    }
+  }
+}

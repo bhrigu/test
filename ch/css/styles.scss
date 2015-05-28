@@ -1,0 +1,59 @@
+@import "components/header";
+@import "components/_mainHeader";
+@import "components/section_one";
+@import "components/section_two";
+@import "components/section_three";
+
+* {
+  border: 0 solid #37b0ba;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+  font-family: Source Sans Pro;
+  font-size: 100%;
+
+}
+
+body{
+  width: 100%;
+  float: none;
+  margin: 0;
+  min-width: 1349px;
+  overflow: auto;
+  padding: 0;
+}
+
+.wrapper{
+  height: 100%;
+  .content{
+    height: 100%;
+  }
+}
+
+
+
+.outerContainer{
+  word-break: break-all;
+  min-height: 800px;
+  height: 800px;
+
+  .innerContainer{
+    min-height: 100%;
+    background: url("../images/Fysiotherapie-2000x1332.jpg") fixed no-repeat 50% 0;
+    background-size: cover;
+    min-width: 960px;
+    background-color: #1c0d18 !important;
+    color: #515151;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+

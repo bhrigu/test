@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "description": "example",
+  "homepage": "http://example.uarp.net/",
+  "version": "0.0.1",
+  "author": {
+    "name": "Yuliy Lysyak",
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "bower": "~1.2.8",
+    "grunt-autoprefixer": "~2.2.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.6.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-string-replace": "^1.0.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}

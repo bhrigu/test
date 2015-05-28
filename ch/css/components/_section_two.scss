@@ -1,0 +1,38 @@
+.sectionTwo{
+  background-color: white;
+  .title{
+    strong{
+      width: 100%;
+    }
+  }
+  .sectionRow{
+
+    .sectionContent{
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .sectionHeader{
+      &.green{
+        background-color: rgb(27, 92, 27) !important;
+        height: 9em;
+
+        .h2{
+          color: white;
+          margin: 0 auto;
+          max-width: 960px;
+          text-align: center;
+          font-size: 2em;
+          vertical-align: middle;
+          line-height: 4.5em;
+          h2{
+            padding: 0;
+            margin: 0;
+            span{
+              font-weight: 200;
+            }
+          }
+        }
+      }
+    }
+  }
+}
